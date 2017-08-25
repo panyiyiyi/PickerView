@@ -7,13 +7,14 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#abcdef">
+        android:background="@color/colorPrimary">
 
         <TextView
             android:id="@+id/cancle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
+            android:textColor="#ffffff"
             android:text="取消" />
 
         <TextView
@@ -22,6 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:padding="10dp"
+            android:textColor="#ffffff"
             android:text="确定" />
     </RelativeLayout>
 
